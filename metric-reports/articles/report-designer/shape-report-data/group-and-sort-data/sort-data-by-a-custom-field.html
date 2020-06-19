@@ -1,0 +1,911 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Sort Data by a Custom Field | Metric Analitic, End-User Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Sort Data by a Custom Field | Metric Analitic, End-User Documentation ">
+    <meta name="generator" content="docfx 2.40.0.0">
+    
+    <link rel="shortcut icon" href="../../../../../metricfavicon.ico">
+    <link rel="stylesheet" href="../../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../../../styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+    <meta property="docfx:navrel" content="../../../../../toc">
+    <meta property="docfx:tocrel" content="../../../../toc">
+    
+    <meta property="docfx:rel" content="../../../../../">
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../../../index.html">
+                <img id="logo" class="svg" src="../../../../../metriclogo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+                <ul class="nav level1 navbar-nav">
+                  <li class="active">
+                    <a href="../../../../../metric-reports/articles/index.html" title="Metric Reports for Web" class="active">Metric Reports for Web</a>
+                  </li>
+                  <li class="">
+                    <a href="../../../../../dashboard-for-web/articles/index.html" title="Dashboard for Web" class="">Dashboard for Web</a>
+                  </li>
+                </ul>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list"></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div>
+              <div class="sidefilter">
+                <form class="toc-filter">
+                  <span class="glyphicon glyphicon-filter filter-icon"></span>
+                  <input type="text" id="toc_filter_input" placeholder="Enter here to filter..." onkeypress="if(event.keyCode==13) {return false;}">
+                </form>
+              </div>
+              <div class="sidetoc">
+                <div class="toc" id="toc">
+                  
+                  <ul class="nav level1">
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="../../../../articles/report-designer.html" title="Report Designer" class="">Report Designer</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="../../../../articles/report-designer/first-look-at-the-report-designer.html" title="First Look at the Report Designer" class="">First Look at the Report Designer</a>
+                          </li>
+                          <li class="">
+                            <a href="../../../../articles/report-designer/add-new-reports.html" title="Add New Reports" class="">Add New Reports</a>
+                          </li>
+                          <li class="">
+                            <a href="../../../../articles/report-designer/open-reports.html" title="Open Reports" class="">Open Reports</a>
+                          </li>
+                          <li class="">
+                            <a href="../../../../articles/report-designer/save-reports.html" title="Save Reports" class="">Save Reports</a>
+                          </li>
+                          <li class="">
+                            <a href="../../../../articles/report-designer/introduction-to-banded-reports.html" title="Introduction to Banded Reports" class="">Introduction to Banded Reports</a>
+                          </li>
+                          <li class="">
+                            <span class="expand-stub"></span>
+                            <a href="../../../../articles/report-designer/bind-to-data.html" title="Bind to Data" class="">Bind to Data</a>
+                              
+                              <ul class="nav level3">
+                                <li class="">
+                                  <a href="../../../../articles/report-designer/bind-to-data/bind-a-report-to-a-database.html" title="Bind a Report to a Database" class="">Bind a Report to a Database</a>
+                                </li>
+                                <li class="">
+                                  <a href="../../../../articles/report-designer/bind-to-data/specify-query-parameters.html" title="Specify Query Parameters" class="">Specify Query Parameters</a>
+                                </li>
+                                <li class="">
+                                  <a href="../../../../articles/report-designer/bind-to-data/bind-a-report-to-json-data.html" title="Bind a Report to JSON Data" class="">Bind a Report to JSON Data</a>
+                                </li>
+                                <li class="">
+                                  <a href="../../../../articles/report-designer/bind-to-data/bind-a-report-to-an-object-data-source.html" title="Bind a Report to an Object Data Source" class="">Bind a Report to an Object Data Source</a>
+                                </li>
+                                <li class="">
+                                  <a href="../../../../articles/report-designer/bind-to-data/data-binding-modes.html" title="Data Binding Modes" class="">Data Binding Modes</a>
+                                </li>
+                                <li class="">
+                                  <a href="../../../../articles/report-designer/bind-to-data/bind-controls-to-data-expression-bindings.html" title="Bind Report Controls to Data (Expression Bindings)" class="">Bind Report Controls to Data (Expression Bindings)</a>
+                                </li>
+                                <li class="">
+                                  <a href="../../../../articles/report-designer/bind-to-data/bind-controls-to-data-data-bindings.html" title="Bind Report Controls to Data (Data Bindings)" class="">Bind Report Controls to Data (Data Bindings)</a>
+                                </li>
+                                <li class="">
+                                  <a href="../../../../articles/report-designer/bind-to-data/use-embedded-fields-mail-merge.html" title="Use Embedded Fields (Mail Merge)" class="">Use Embedded Fields (Mail Merge)</a>
+                                </li>
+                                <li class="">
+                                  <a href="../../../../articles/report-designer/bind-to-data/validate-report-data-bindings.html" title="Validate Report Data Bindings" class="">Validate Report Data Bindings</a>
+                                </li>
+                              </ul>  </li>
+                          <li class="">
+                            <span class="expand-stub"></span>
+                            <a href="../../../../articles/report-designer/create-popular-reports.html" title="Create Popular Reports" class="">Create Popular Reports</a>
+                              
+                              <ul class="nav level3">
+                                <li class="">
+                                  <a href="../../../../articles/report-designer/create-popular-reports/create-a-letter.html" title="Create a Letter" class="">Create a Letter</a>
+                                </li>
+                                <li class="">
+                                  <a href="../../../../articles/report-designer/create-popular-reports/create-a-table-report.html" title="Create a Table Report" class="">Create a Table Report</a>
+                                </li>
+                                <li class="">
+                                  <a href="../../../../articles/report-designer/create-popular-reports/create-an-invoice-manually.html" title="Create an Invoice Manually" class="">Create an Invoice Manually</a>
+                                </li>
+                                <li class="">
+                                  <a href="../../../../articles/report-designer/create-popular-reports/create-a-master-detail-report-use-detail-report-bands.html" title="Create a Master-Detail Report (Use Detail Report Bands)" class="">Create a Master-Detail Report (Use Detail Report Bands)</a>
+                                </li>
+                                <li class="">
+                                  <a href="../../../../articles/report-designer/create-popular-reports/create-a-master-detail-report-use-subreports.html" title="Create a Master-Detail Report (Use Subreports)" class="">Create a Master-Detail Report (Use Subreports)</a>
+                                </li>
+                                <li class="">
+                                  <a href="../../../../articles/report-designer/create-popular-reports/create-a-report-with-pdf-content.html" title="Create a Report with PDF Content" class="">Create a Report with PDF Content</a>
+                                </li>
+                                <li class="">
+                                  <a href="../../../../articles/report-designer/create-popular-reports/create-a-hierarchical-report.html" title="Create a Hierarchical Report" class="">Create a Hierarchical Report</a>
+                                </li>
+                                <li class="">
+                                  <a href="../../../../articles/report-designer/create-popular-reports/create-a-vertical-report.html" title="Create a Vertical Report" class="">Create a Vertical Report</a>
+                                </li>
+                                <li class="">
+                                  <a href="../../../../articles/report-designer/create-popular-reports/create-labels-and-badges.html" title="Create Labels and Badges" class="">Create Labels and Badges</a>
+                                </li>
+                                <li class="">
+                                  <a href="../../../../articles/report-designer/create-popular-reports/create-a-multi-column-report.html" title="Create a Multi-Column Report" class="">Create a Multi-Column Report</a>
+                                </li>
+                                <li class="">
+                                  <a href="../../../../articles/report-designer/create-popular-reports/create-a-report-with-cross-band-content-and-populated-empty-space.html" title="Create a Report with Cross-Band Content and Populated Empty Space" class="">Create a Report with Cross-Band Content and Populated Empty Space</a>
+                                </li>
+                                <li class="">
+                                  <a href="../../../../articles/report-designer/create-popular-reports/create-an-interactive-e-form.html" title="Create an Interactive E-Form" class="">Create an Interactive E-Form</a>
+                                </li>
+                                <li class="">
+                                  <a href="../../../../articles/report-designer/create-popular-reports/create-a-cross-tab-report.html" title="Create a Cross-Tab Report" class="">Create a Cross-Tab Report</a>
+                                </li>
+                              </ul>  </li>
+                          <li class="">
+                            <span class="expand-stub"></span>
+                            <a href="../../../../articles/report-designer/configure-design-settings.html" title="Configure Design Settings" class="">Configure Design Settings</a>
+                              
+                              <ul class="nav level3">
+                                <li class="">
+                                  <a href="../../../../articles/report-designer/configure-design-settings/change-a-report-measurement-units.html" title="Change a Report's Measurement Units" class="">Change a Report's Measurement Units</a>
+                                </li>
+                                <li class="">
+                                  <a href="../../../../articles/report-designer/configure-design-settings/change-a-report-page-settings.html" title="Change a Report's Page Settings" class="">Change a Report's Page Settings</a>
+                                </li>
+                                <li class="">
+                                  <a href="../../../../articles/report-designer/configure-design-settings/enable-the-right-to-left-layout.html" title="Enable the Right-To-Left Layout" class="">Enable the Right-To-Left Layout</a>
+                                </li>
+                              </ul>  </li>
+                          <li class="">
+                            <span class="expand-stub"></span>
+                            <a href="../../../../articles/report-designer/use-report-elements.html" title="Use Report Elements" class="">Use Report Elements</a>
+                              
+                              <ul class="nav level3">
+                                <li class="">
+                                  <span class="expand-stub"></span>
+                                  <a href="../../../../articles/report-designer/use-report-elements/manipulate-report-elements.html" title="Manipulate Report Elements" class="">Manipulate Report Elements</a>
+                                    
+                                    <ul class="nav level4">
+                                      <li class="">
+                                        <a href="../../../../articles/report-designer/use-report-elements/manipulate-report-elements/add-controls-to-a-report.html" title="Add Controls to a Report" class="">Add Controls to a Report</a>
+                                      </li>
+                                      <li class="">
+                                        <a href="../../../../articles/report-designer/use-report-elements/manipulate-report-elements/select-report-elements-and-access-their-settings.html" title="Select Report Elements and Access Their Settings" class="">Select Report Elements and Access Their Settings</a>
+                                      </li>
+                                      <li class="">
+                                        <a href="../../../../articles/report-designer/use-report-elements/manipulate-report-elements/move-and-resize-report-elements.html" title="Move and Resize Report Elements" class="">Move and Resize Report Elements</a>
+                                      </li>
+                                      <li class="">
+                                        <a href="../../../../articles/report-designer/use-report-elements/manipulate-report-elements/apply-styles-to-report-elements.html" title="Apply Styles to Report Elements" class="">Apply Styles to Report Elements</a>
+                                      </li>
+                                      <li class="">
+                                        <a href="../../../../articles/report-designer/use-report-elements/manipulate-report-elements/copy-report-controls.html" title="Copy Report Controls" class="">Copy Report Controls</a>
+                                      </li>
+                                      <li class="">
+                                        <a href="../../../../articles/report-designer/use-report-elements/manipulate-report-elements/arrange-report-controls.html" title="Arrange Report Controls" class="">Arrange Report Controls</a>
+                                      </li>
+                                      <li class="">
+                                        <a href="../../../../articles/report-designer/use-report-elements/manipulate-report-elements/add-report-controls-to-containers.html" title="Add Report Controls to Containers" class="">Add Report Controls to Containers</a>
+                                      </li>
+                                      <li class="">
+                                        <a href="../../../../articles/report-designer/use-report-elements/manipulate-report-elements/validate-the-report-layout.html" title="Validate the Report Layout" class="">Validate the Report Layout</a>
+                                      </li>
+                                    </ul>  </li>
+                                <li class="">
+                                  <span class="expand-stub"></span>
+                                  <a href="../../../../articles/report-designer/use-report-elements/use-basic-report-controls.html" title="Use Basic Report Controls" class="">Use Basic Report Controls</a>
+                                    
+                                    <ul class="nav level4">
+                                      <li class="">
+                                        <a href="../../../../articles/report-designer/use-report-elements/use-basic-report-controls/label.html" title="Label" class="">Label</a>
+                                      </li>
+                                      <li class="">
+                                        <a href="../../../../articles/report-designer/use-report-elements/use-basic-report-controls/character-comb.html" title="Character Comb" class="">Character Comb</a>
+                                      </li>
+                                      <li class="">
+                                        <a href="../../../../articles/report-designer/use-report-elements/use-basic-report-controls/rich-text.html" title="Rich Text" class="">Rich Text</a>
+                                      </li>
+                                      <li class="">
+                                        <a href="../../../../articles/report-designer/use-report-elements/use-basic-report-controls/check-box.html" title="Check Box" class="">Check Box</a>
+                                      </li>
+                                      <li class="">
+                                        <a href="../../../../articles/report-designer/use-report-elements/use-basic-report-controls/picture-box.html" title="Picture Box" class="">Picture Box</a>
+                                      </li>
+                                      <li class="">
+                                        <a href="../../../../articles/report-designer/use-report-elements/use-basic-report-controls/subreport.html" title="Subreport" class="">Subreport</a>
+                                      </li>
+                                      <li class="">
+                                        <a href="../../../../articles/report-designer/use-report-elements/use-basic-report-controls/panel.html" title="Panel" class="">Panel</a>
+                                      </li>
+                                      <li class="">
+                                        <a href="../../../../articles/report-designer/use-report-elements/use-basic-report-controls/page-break.html" title="Page Break" class="">Page Break</a>
+                                      </li>
+                                      <li class="">
+                                        <a href="../../../../articles/report-designer/use-report-elements/use-basic-report-controls/table-of-contents.html" title="Table of Contents" class="">Table of Contents</a>
+                                      </li>
+                                      <li class="">
+                                        <a href="../../../../articles/report-designer/use-report-elements/use-basic-report-controls/page-info.html" title="Page Info" class="">Page Info</a>
+                                      </li>
+                                    </ul>  </li>
+                                <li class="">
+                                  <span class="expand-stub"></span>
+                                  <a href="../../../../articles/report-designer/use-report-elements/use-tables.html" title="Use Tables" class="">Use Tables</a>
+                                    
+                                    <ul class="nav level4">
+                                      <li class="">
+                                        <a href="../../../../articles/report-designer/use-report-elements/use-tables/table-overview.html" title="Table Overview" class="">Table Overview</a>
+                                      </li>
+                                      <li class="">
+                                        <a href="../../../../articles/report-designer/use-report-elements/use-tables/bind-table-cells-to-data.html" title="Bind Table Cells to Data" class="">Bind Table Cells to Data</a>
+                                      </li>
+                                      <li class="">
+                                        <a href="../../../../articles/report-designer/use-report-elements/use-tables/manage-table-structure.html" title="Manage Table Structure" class="">Manage Table Structure</a>
+                                      </li>
+                                      <li class="">
+                                        <a href="../../../../articles/report-designer/use-report-elements/use-tables/manipulate-table-elements.html" title="Manipulate Table Elements" class="">Manipulate Table Elements</a>
+                                      </li>
+                                      <li class="">
+                                        <a href="../../../../articles/report-designer/use-report-elements/use-tables/hide-table-cells.html" title="Hide Table Cells" class="">Hide Table Cells</a>
+                                      </li>
+                                    </ul>  </li>
+                                <li class="">
+                                  <span class="expand-stub"></span>
+                                  <a href="../../../../articles/report-designer/use-report-elements/use-bar-codes.html" title="Use Bar Codes" class="">Use Bar Codes</a>
+                                    
+                                    <ul class="nav level4">
+                                      <li class="">
+                                        <a href="../../../../articles/report-designer/use-report-elements/use-bar-codes/add-bar-codes-to-a-report.html" title="Add Bar Codes to a Report" class="">Add Bar Codes to a Report</a>
+                                      </li>
+                                      <li class="">
+                                        <a href="../../../../articles/report-designer/use-report-elements/use-bar-codes/bar-code-recognition-specifics.html" title="Bar Code Recognition Specifics" class="">Bar Code Recognition Specifics</a>
+                                      </li>
+                                      <li class="">
+                                        <a href="../../../../articles/report-designer/use-report-elements/use-bar-codes/codabar.html" title="Codabar" class="">Codabar</a>
+                                      </li>
+                                      <li class="">
+                                        <a href="../../../../articles/report-designer/use-report-elements/use-bar-codes/code-11-usd-8.html" title="Code 11 (USD-8)" class="">Code 11 (USD-8)</a>
+                                      </li>
+                                      <li class="">
+                                        <a href="../../../../articles/report-designer/use-report-elements/use-bar-codes/code-128.html" title="Code 128" class="">Code 128</a>
+                                      </li>
+                                      <li class="">
+                                        <a href="../../../../articles/report-designer/use-report-elements/use-bar-codes/code-39-usd-3.html" title="Code 39 (USD-3)" class="">Code 39 (USD-3)</a>
+                                      </li>
+                                      <li class="">
+                                        <a href="../../../../articles/report-designer/use-report-elements/use-bar-codes/code-39-extended.html" title="Code 39 Extended" class="">Code 39 Extended</a>
+                                      </li>
+                                      <li class="">
+                                        <a href="../../../../articles/report-designer/use-report-elements/use-bar-codes/code-93.html" title="Code 93" class="">Code 93</a>
+                                      </li>
+                                      <li class="">
+                                        <a href="../../../../articles/report-designer/use-report-elements/use-bar-codes/code-93-extended.html" title="Code 93 Extended" class="">Code 93 Extended</a>
+                                      </li>
+                                      <li class="">
+                                        <a href="../../../../articles/report-designer/use-report-elements/use-bar-codes/ean-13.html" title="EAN 13" class="">EAN 13</a>
+                                      </li>
+                                      <li class="">
+                                        <a href="../../../../articles/report-designer/use-report-elements/use-bar-codes/ean-8.html" title="EAN 8" class="">EAN 8</a>
+                                      </li>
+                                      <li class="">
+                                        <a href="../../../../articles/report-designer/use-report-elements/use-bar-codes/ecc200-data-matrix.html" title="ECC200 - Data Matrix" class="">ECC200 - Data Matrix</a>
+                                      </li>
+                                      <li class="">
+                                        <a href="../../../../articles/report-designer/use-report-elements/use-bar-codes/gs1-databar.html" title="GS1 - DataBar" class="">GS1 - DataBar</a>
+                                      </li>
+                                      <li class="">
+                                        <a href="../../../../articles/report-designer/use-report-elements/use-bar-codes/gs1-data-matrix.html" title="GS1- Data Matrix" class="">GS1- Data Matrix</a>
+                                      </li>
+                                      <li class="">
+                                        <a href="../../../../articles/report-designer/use-report-elements/use-bar-codes/gs1-128-ean-128-ucc.html" title="GS1-128 - EAN-128 (UCC)" class="">GS1-128 - EAN-128 (UCC)</a>
+                                      </li>
+                                      <li class="">
+                                        <a href="../../../../articles/report-designer/use-report-elements/use-bar-codes/industrial-2-of-5.html" title="Industrial 2 of 5" class="">Industrial 2 of 5</a>
+                                      </li>
+                                      <li class="">
+                                        <a href="../../../../articles/report-designer/use-report-elements/use-bar-codes/intelligent-mail.html" title="Intelligent Mail" class="">Intelligent Mail</a>
+                                      </li>
+                                      <li class="">
+                                        <a href="../../../../articles/report-designer/use-report-elements/use-bar-codes/intelligent-mail-package.html" title="Intelligent Mail Package" class="">Intelligent Mail Package</a>
+                                      </li>
+                                      <li class="">
+                                        <a href="../../../../articles/report-designer/use-report-elements/use-bar-codes/interleaved-2-of-5.html" title="Interleaved 2 of 5" class="">Interleaved 2 of 5</a>
+                                      </li>
+                                      <li class="">
+                                        <a href="../../../../articles/report-designer/use-report-elements/use-bar-codes/matrix-2-of-5.html" title="Matrix 2 of 5" class="">Matrix 2 of 5</a>
+                                      </li>
+                                      <li class="">
+                                        <a href="../../../../articles/report-designer/use-report-elements/use-bar-codes/msi-plessey.html" title="MSI - Plessey" class="">MSI - Plessey</a>
+                                      </li>
+                                      <li class="">
+                                        <a href="../../../../articles/report-designer/use-report-elements/use-bar-codes/pdf417.html" title="PDF417" class="">PDF417</a>
+                                      </li>
+                                      <li class="">
+                                        <a href="../../../../articles/report-designer/use-report-elements/use-bar-codes/postnet.html" title="PostNet" class="">PostNet</a>
+                                      </li>
+                                      <li class="">
+                                        <a href="../../../../articles/report-designer/use-report-elements/use-bar-codes/qr-code.html" title="QR Code" class="">QR Code</a>
+                                      </li>
+                                      <li class="">
+                                        <a href="../../../../articles/report-designer/use-report-elements/use-bar-codes/upc-shipping-container-symbol-itf-14.html" title="UPC Shipping Container Symbol (ITF-14)" class="">UPC Shipping Container Symbol (ITF-14)</a>
+                                      </li>
+                                      <li class="">
+                                        <a href="../../../../articles/report-designer/use-report-elements/use-bar-codes/upc-supplemental-2.html" title="UPC Supplemental 2" class="">UPC Supplemental 2</a>
+                                      </li>
+                                      <li class="">
+                                        <a href="../../../../articles/report-designer/use-report-elements/use-bar-codes/upc-supplemental-5.html" title="UPC Supplemental 5" class="">UPC Supplemental 5</a>
+                                      </li>
+                                      <li class="">
+                                        <a href="../../../../articles/report-designer/use-report-elements/use-bar-codes/upc-a.html" title="UPC-A" class="">UPC-A</a>
+                                      </li>
+                                      <li class="">
+                                        <a href="../../../../articles/report-designer/use-report-elements/use-bar-codes/upc-e0.html" title="UPC-E0" class="">UPC-E0</a>
+                                      </li>
+                                      <li class="">
+                                        <a href="../../../../articles/report-designer/use-report-elements/use-bar-codes/upc-e1.html" title="UPC-E1" class="">UPC-E1</a>
+                                      </li>
+                                    </ul>  </li>
+                                <li class="">
+                                  <span class="expand-stub"></span>
+                                  <a href="../../../../articles/report-designer/use-report-elements/use-charts-and-pivot-grids.html" title="Use Charts and Pivot Grids" class="">Use Charts and Pivot Grids</a>
+                                    
+                                    <ul class="nav level4">
+                                      <li class="">
+                                        <a href="../../../../articles/report-designer/use-report-elements/use-charts-and-pivot-grids/use-charts-in-reports.html" title="Use Charts in Reports" class="">Use Charts in Reports</a>
+                                      </li>
+                                      <li class="">
+                                        <a href="../../../../articles/report-designer/use-report-elements/use-charts-and-pivot-grids/add-a-chart-set-up-series-manually.html" title="Add a Chart (Set Up Series Manually)" class="">Add a Chart (Set Up Series Manually)</a>
+                                      </li>
+                                      <li class="">
+                                        <a href="../../../../articles/report-designer/use-report-elements/use-charts-and-pivot-grids/add-a-chart-use-a-series-template.html" title="Add a Chart (Use a Series Template)" class="">Add a Chart (Use a Series Template)</a>
+                                      </li>
+                                      <li class="">
+                                        <a href="../../../../articles/report-designer/use-report-elements/use-charts-and-pivot-grids/use-charts-to-visualize-grouped-data.html" title="Use Charts to Visualize Grouped Data" class="">Use Charts to Visualize Grouped Data</a>
+                                      </li>
+                                      <li class="">
+                                        <a href="../../../../articles/report-designer/use-report-elements/use-charts-and-pivot-grids/link-a-chart-and-a-pivot-grid.html" title="Link a Chart and a Pivot Grid" class="">Link a Chart and a Pivot Grid</a>
+                                      </li>
+                                    </ul>  </li>
+                                <li class="">
+                                  <span class="expand-stub"></span>
+                                  <a href="../../../../articles/report-designer/use-report-elements/use-gauges-and-sparklines.html" title="Use Gauges and Sparklines" class="">Use Gauges and Sparklines</a>
+                                    
+                                    <ul class="nav level4">
+                                      <li class="">
+                                        <a href="../../../../articles/report-designer/use-report-elements/use-gauges-and-sparklines/add-gauges-to-a-report.html" title="Add Gauges to a Report" class="">Add Gauges to a Report</a>
+                                      </li>
+                                      <li class="">
+                                        <a href="../../../../articles/report-designer/use-report-elements/use-gauges-and-sparklines/add-sparklines-to-a-report.html" title="Add Sparklines to a Report" class="">Add Sparklines to a Report</a>
+                                      </li>
+                                    </ul>  </li>
+                                <li class="">
+                                  <span class="expand-stub"></span>
+                                  <a href="../../../../articles/report-designer/use-report-elements/draw-lines-and-shapes.html" title="Draw Lines and Shapes" class="">Draw Lines and Shapes</a>
+                                    
+                                    <ul class="nav level4">
+                                      <li class="">
+                                        <a href="../../../../articles/report-designer/use-report-elements/draw-lines-and-shapes/draw-lines.html" title="Draw Lines" class="">Draw Lines</a>
+                                      </li>
+                                      <li class="">
+                                        <a href="../../../../articles/report-designer/use-report-elements/draw-lines-and-shapes/draw-shapes.html" title="Draw Shapes" class="">Draw Shapes</a>
+                                      </li>
+                                      <li class="">
+                                        <a href="../../../../articles/report-designer/use-report-elements/draw-lines-and-shapes/draw-cross-band-lines-and-boxes.html" title="Draw Cross-Band Lines and Boxes" class="">Draw Cross-Band Lines and Boxes</a>
+                                      </li>
+                                    </ul>  </li>
+                              </ul>  </li>
+                          <li class="">
+                            <span class="expand-stub"></span>
+                            <a href="../../../../articles/report-designer/shape-report-data.html" title="Shape Report Data" class="">Shape Report Data</a>
+                              
+                              <ul class="nav level3">
+                                <li class="">
+                                  <span class="expand-stub"></span>
+                                  <a href="../../../../articles/report-designer/shape-report-data/filter-data.html" title="Filter Data" class="">Filter Data</a>
+                                    
+                                    <ul class="nav level4">
+                                      <li class="">
+                                        <a href="../../../../articles/report-designer/shape-report-data/filter-data/filter-data-at-the-report-level.html" title="Filter Data at the Report Level" class="">Filter Data at the Report Level</a>
+                                      </li>
+                                      <li class="">
+                                        <a href="../../../../articles/report-designer/shape-report-data/filter-data/filter-data-at-the-data-source-level.html" title="Filter Data at the Data Source Level" class="">Filter Data at the Data Source Level</a>
+                                      </li>
+                                      <li class="">
+                                        <a href="../../../../articles/report-designer/shape-report-data/filter-data/limit-the-number-of-records-to-display.html" title="Limit the Number of Records to Display" class="">Limit the Number of Records to Display</a>
+                                      </li>
+                                    </ul>  </li>
+                                <li class="">
+                                  <span class="expand-stub"></span>
+                                  <a href="../../../../articles/report-designer/shape-report-data/group-and-sort-data.html" title="Group and Sort Data" class="">Group and Sort Data</a>
+                                    
+                                    <ul class="nav level4">
+                                      <li class="">
+                                        <a href="../../../../articles/report-designer/shape-report-data/group-and-sort-data/sort-data.html" title="Sort Data" class="">Sort Data</a>
+                                      </li>
+                                      <li class="">
+                                        <a href="../../../../articles/report-designer/shape-report-data/group-and-sort-data/group-data.html" title="Group Data" class="">Group Data</a>
+                                      </li>
+                                      <li class="active">
+                                        <a href="../../../../articles/report-designer/shape-report-data/group-and-sort-data/sort-data-by-a-custom-field.html" title="Sort Data by a Custom Field" class="active">Sort Data by a Custom Field</a>
+                                      </li>
+                                      <li class="">
+                                        <a href="../../../../articles/report-designer/shape-report-data/group-and-sort-data/group-data-by-a-custom-field.html" title="Group Data by a Custom Field" class="">Group Data by a Custom Field</a>
+                                      </li>
+                                      <li class="">
+                                        <a href="../../../../articles/report-designer/shape-report-data/group-and-sort-data/sort-groups-by-a-summary-function-result.html" title="Sort Groups by a Summary Function's Result" class="">Sort Groups by a Summary Function's Result</a>
+                                      </li>
+                                    </ul>  </li>
+                                <li class="">
+                                  <span class="expand-stub"></span>
+                                  <a href="../../../../articles/report-designer/shape-report-data/shape-data-expression-bindings.html" title="Shape Data (Expression Bindings)" class="">Shape Data (Expression Bindings)</a>
+                                    
+                                    <ul class="nav level4">
+                                      <li class="">
+                                        <a href="../../../../articles/report-designer/shape-report-data/shape-data-expression-bindings/format-data.html" title="Format Data" class="">Format Data</a>
+                                      </li>
+                                      <li class="">
+                                        <a href="../../../../articles/report-designer/shape-report-data/shape-data-expression-bindings/conditionally-change-a-control-appearance.html" title="Conditionally Change a Control's Appearance" class="">Conditionally Change a Control's Appearance</a>
+                                      </li>
+                                      <li class="">
+                                        <a href="../../../../articles/report-designer/shape-report-data/shape-data-expression-bindings/conditionally-change-a-label-text.html" title="Conditionally Change a Label's Text" class="">Conditionally Change a Label's Text</a>
+                                      </li>
+                                      <li class="">
+                                        <a href="../../../../articles/report-designer/shape-report-data/shape-data-expression-bindings/conditionally-change-a-bands-vibility-expression-binding.html" title="Conditionally Change a Band's Visibility" class="">Conditionally Change a Band's Visibility</a>
+                                      </li>
+                                      <li class="">
+                                        <a href="../../../../articles/report-designer/shape-report-data/shape-data-expression-bindings/conditionally-filter-report-data.html" title="Conditionally Filter Report Data" class="">Conditionally Filter Report Data</a>
+                                      </li>
+                                      <li class="">
+                                        <a href="../../../../articles/report-designer/shape-report-data/shape-data-expression-bindings/conditionally-supress-controls.html" title="Conditionally Suppress Controls" class="">Conditionally Suppress Controls</a>
+                                      </li>
+                                      <li class="">
+                                        <a href="../../../../articles/report-designer/shape-report-data/shape-data-expression-bindings/limit-the-number-of-records-per-page.html" title="Limit the Number of Records per Page" class="">Limit the Number of Records per Page</a>
+                                      </li>
+                                      <li class="">
+                                        <a href="../../../../articles/report-designer/shape-report-data/shape-data-expression-bindings/calculate-a-summary.html" title="Calculate a Summary" class="">Calculate a Summary</a>
+                                      </li>
+                                      <li class="">
+                                        <a href="../../../../articles/report-designer/shape-report-data/shape-data-expression-bindings/calculate-an-advanced-summary.html" title="Calculate an Advanced Summary" class="">Calculate an Advanced Summary</a>
+                                      </li>
+                                      <li class="">
+                                        <a href="../../../../articles/report-designer/shape-report-data/shape-data-expression-bindings/display-row-numbers-in-a-report-group-or-page.html" title="Display Row Numbers in a Report, Group or Page" class="">Display Row Numbers in a Report, Group or Page</a>
+                                      </li>
+                                      <li class="">
+                                        <a href="../../../../articles/report-designer/shape-report-data/shape-data-expression-bindings/count-the-number-of-records-in-a-report-or-group.html" title="Count the Number of Records in a Report or Group" class="">Count the Number of Records in a Report or Group</a>
+                                      </li>
+                                      <li class="">
+                                        <a href="../../../../articles/report-designer/shape-report-data/shape-data-expression-bindings/count-the-number-of-groups-in-a-report.html" title="Count the Number of Groups in a Report" class="">Count the Number of Groups in a Report</a>
+                                      </li>
+                                    </ul>  </li>
+                                <li class="">
+                                  <span class="expand-stub"></span>
+                                  <a href="../../../../articles/report-designer/shape-report-data/shape-data-data-bindings.html" title="Shape Data (Data Bindings)" class="">Shape Data (Data Bindings)</a>
+                                    
+                                    <ul class="nav level4">
+                                      <li class="">
+                                        <a href="../../../../articles/report-designer/shape-report-data/shape-data-data-bindings/format-data.html" title="Format Data" class="">Format Data</a>
+                                      </li>
+                                      <li class="">
+                                        <a href="../../../../articles/report-designer/shape-report-data/shape-data-data-bindings/conditionally-change-a-control-appearance.html" title="Conditionally Change a Control's Appearance" class="">Conditionally Change a Control's Appearance</a>
+                                      </li>
+                                      <li class="">
+                                        <a href="../../../../articles/report-designer/shape-report-data/shape-data-data-bindings/conditionally-change-a-label-text.html" title="Conditionally Change a Label's Text" class="">Conditionally Change a Label's Text</a>
+                                      </li>
+                                      <li class="">
+                                        <a href="../../../../articles/report-designer/shape-report-data/shape-data-data-bindings/conditionally-change-a-bands-visibility-data-binding.html" title="Conditionally Change a Band's Visibility" class="">Conditionally Change a Band's Visibility</a>
+                                      </li>
+                                      <li class="">
+                                        <a href="../../../../articles/report-designer/shape-report-data/shape-data-data-bindings/conditionally-filter-report-data.html" title="Conditionally Filter Report Data" class="">Conditionally Filter Report Data</a>
+                                      </li>
+                                      <li class="">
+                                        <a href="../../../../articles/report-designer/shape-report-data/shape-data-data-bindings/conditionally-supress-controls.html" title="Conditionally Suppress Controls" class="">Conditionally Suppress Controls</a>
+                                      </li>
+                                      <li class="">
+                                        <a href="../../../../articles/report-designer/shape-report-data/shape-data-data-bindings/limit-the-number-of-records-per-page.html" title="Limit the Number of Records per Page" class="">Limit the Number of Records per Page</a>
+                                      </li>
+                                      <li class="">
+                                        <a href="../../../../articles/report-designer/shape-report-data/shape-data-data-bindings/calculate-a-summary.html" title="Calculate a Summary" class="">Calculate a Summary</a>
+                                      </li>
+                                      <li class="">
+                                        <a href="../../../../articles/report-designer/shape-report-data/shape-data-data-bindings/calculate-a-custom-summary.html" title="Calculate a Custom Summary" class="">Calculate a Custom Summary</a>
+                                      </li>
+                                      <li class="">
+                                        <a href="../../../../articles/report-designer/shape-report-data/shape-data-data-bindings/display-row-numbers-in-a-report-group-or-page.html" title="Display Row Numbers in a Report, Group or Page" class="">Display Row Numbers in a Report, Group or Page</a>
+                                      </li>
+                                      <li class="">
+                                        <a href="../../../../articles/report-designer/shape-report-data/shape-data-data-bindings/count-the-number-of-records-in-a-report-or-group.html" title="Count the Number of Records in a Report or Group" class="">Count the Number of Records in a Report or Group</a>
+                                      </li>
+                                      <li class="">
+                                        <a href="../../../../articles/report-designer/shape-report-data/shape-data-data-bindings/count-the-number-of-groups-in-a-report.html" title="Count the Number of Groups in a Report" class="">Count the Number of Groups in a Report</a>
+                                      </li>
+                                    </ul>  </li>
+                                <li class="">
+                                  <span class="expand-stub"></span>
+                                  <a href="../../../../articles/report-designer/shape-report-data/use-calculated-fields.html" title="Use Calculated Fields" class="">Use Calculated Fields</a>
+                                    
+                                    <ul class="nav level4">
+                                      <li class="">
+                                        <a href="../../../../articles/report-designer/shape-report-data/use-calculated-fields/calculated-fields-overview.html" title="Calculated Fields Overview" class="">Calculated Fields Overview</a>
+                                      </li>
+                                      <li class="">
+                                        <a href="../../../../articles/report-designer/shape-report-data/use-calculated-fields/calculate-an-aggregate-function.html" title="Calculate an Aggregate Function" class="">Calculate an Aggregate Function</a>
+                                      </li>
+                                      <li class="">
+                                        <a href="../../../../articles/report-designer/shape-report-data/use-calculated-fields/calculate-a-weighted-average-function.html" title="Calculate a Weighted Average Function" class="">Calculate a Weighted Average Function</a>
+                                      </li>
+                                    </ul>  </li>
+                                <li class="">
+                                  <span class="expand-stub"></span>
+                                  <a href="../../../../articles/report-designer/shape-report-data/use-report-parameters.html" title="Use Report Parameters" class="">Use Report Parameters</a>
+                                    
+                                    <ul class="nav level4">
+                                      <li class="">
+                                        <a href="../../../../articles/report-designer/shape-report-data/use-report-parameters/create-a-report-parameter.html" title="Create a Report Parameter" class="">Create a Report Parameter</a>
+                                      </li>
+                                      <li class="">
+                                        <a href="../../../../articles/report-designer/shape-report-data/use-report-parameters/report-parameters-with-predefined-static-values.html" title="Report Parameters with Predefined Static Values" class="">Report Parameters with Predefined Static Values</a>
+                                      </li>
+                                      <li class="">
+                                        <a href="../../../../articles/report-designer/shape-report-data/use-report-parameters/report-parameters-with-predefined-dynamic-values.html" title="Report Parameters with Predefined Dynamic Values" class="">Report Parameters with Predefined Dynamic Values</a>
+                                      </li>
+                                      <li class="">
+                                        <a href="../../../../articles/report-designer/shape-report-data/use-report-parameters/multi-value-report-parameters.html" title="Multi-Value Report Parameters" class="">Multi-Value Report Parameters</a>
+                                      </li>
+                                      <li class="">
+                                        <a href="../../../../articles/report-designer/shape-report-data/use-report-parameters/cascading-report-parameters.html" title="Cascading Report Parameters" class="">Cascading Report Parameters</a>
+                                      </li>
+                                      <li class="">
+                                        <a href="../../../../articles/report-designer/shape-report-data/use-report-parameters/date-range-report-parameters.html" title="Date Range Report Parameters" class="">Date Range Report Parameters</a>
+                                      </li>
+                                    </ul>  </li>
+                              </ul>  </li>
+                          <li class="">
+                            <span class="expand-stub"></span>
+                            <a href="../../../../articles/report-designer/lay-out-dynamic-report-content.html" title="Lay out Dynamic Report Content" class="">Lay out Dynamic Report Content</a>
+                              
+                              <ul class="nav level3">
+                                <li class="">
+                                  <a href="../../../../articles/report-designer/lay-out-dynamic-report-content/maintain-the-band-location-on-a-page.html" title="Maintain the Band Location on a Page" class="">Maintain the Band Location on a Page</a>
+                                </li>
+                                <li class="">
+                                  <a href="../../../../articles/report-designer/lay-out-dynamic-report-content/keep-content-together.html" title="Keep Content Together" class="">Keep Content Together</a>
+                                </li>
+                                <li class="">
+                                  <a href="../../../../articles/report-designer/lay-out-dynamic-report-content/maintain-the-size-and-content-of-data-bound-controls.html" title="Maintain the Size and Content of Data-Bound Controls" class="">Maintain the Size and Content of Data-Bound Controls</a>
+                                </li>
+                                <li class="">
+                                  <a href="../../../../articles/report-designer/lay-out-dynamic-report-content/anchor-controls.html" title="Anchor Controls" class="">Anchor Controls</a>
+                                </li>
+                                <li class="">
+                                  <a href="../../../../articles/report-designer/lay-out-dynamic-report-content/suppress-controls.html" title="Suppress Controls" class="">Suppress Controls</a>
+                                </li>
+                              </ul>  </li>
+                          <li class="">
+                            <span class="expand-stub"></span>
+                            <a href="../../../../articles/report-designer/customize-appearance.html" title="Customize Appearance" class="">Customize Appearance</a>
+                              
+                              <ul class="nav level3">
+                                <li class="">
+                                  <a href="../../../../articles/report-designer/customize-appearance/appearance-properties.html" title="Appearance Properties" class="">Appearance Properties</a>
+                                </li>
+                                <li class="">
+                                  <a href="../../../../articles/report-designer/customize-appearance/report-visual-styles.html" title="Report Visual Styles" class="">Report Visual Styles</a>
+                                </li>
+                              </ul>  </li>
+                          <li class="">
+                            <span class="expand-stub"></span>
+                            <a href="../../../../articles/report-designer/add-navigation.html" title="Add Navigation" class="">Add Navigation</a>
+                              
+                              <ul class="nav level3">
+                                <li class="">
+                                  <a href="../../../../articles/report-designer/add-navigation/add-page-numbers.html" title="Add Page Numbers" class="">Add Page Numbers</a>
+                                </li>
+                                <li class="">
+                                  <a href="../../../../articles/report-designer/add-navigation/add-cross-references-and-hyperlinks.html" title="Add Cross-References and Hyperlinks" class="">Add Cross-References and Hyperlinks</a>
+                                </li>
+                                <li class="">
+                                  <a href="../../../../articles/report-designer/add-navigation/add-bookmarks-and-a-document-map.html" title="Add Bookmarks and a Document Map" class="">Add Bookmarks and a Document Map</a>
+                                </li>
+                                <li class="">
+                                  <a href="../../../../articles/report-designer/add-navigation/add-a-table-of-contents.html" title="Create a Table of Contents" class="">Create a Table of Contents</a>
+                                </li>
+                              </ul>  </li>
+                          <li class="">
+                            <span class="expand-stub"></span>
+                            <a href="../../../../articles/report-designer/provide-interactivity.html" title="Provide Interactivity" class="">Provide Interactivity</a>
+                              
+                              <ul class="nav level3">
+                                <li class="">
+                                  <a href="../../../../articles/report-designer/provide-interactivity/create-drill-down-reports.html" title="Create Drill-Down Reports" class="">Create Drill-Down Reports</a>
+                                </li>
+                                <li class="">
+                                  <a href="../../../../articles/report-designer/provide-interactivity/sort-a-report-in-print-preview.html" title="Sort a Report in Print Preview" class="">Sort a Report in Print Preview</a>
+                                </li>
+                                <li class="">
+                                  <a href="../../../../articles/report-designer/provide-interactivity/edit-content-in-print-preview.html" title="Edit Content in Print Preview" class="">Edit Content in Print Preview</a>
+                                </li>
+                              </ul>  </li>
+                          <li class="">
+                            <span class="expand-stub"></span>
+                            <a href="../../../../articles/report-designer/add-extra-information.html" title="Add Extra Information" class="">Add Extra Information</a>
+                              
+                              <ul class="nav level3">
+                                <li class="">
+                                  <a href="../../../../articles/report-designer/add-extra-information/add-watermarks-to-a-report.html" title="Add Watermarks to a Report" class="">Add Watermarks to a Report</a>
+                                </li>
+                                <li class="">
+                                  <a href="../../../../articles/report-designer/add-extra-information/display-the-current-date-and-time-in-a-report.html" title="Display the Current Date and Time in a Report" class="">Display the Current Date and Time in a Report</a>
+                                </li>
+                                <li class="">
+                                  <a href="../../../../articles/report-designer/add-extra-information/display-the-user-name-in-a-report.html" title="Display the User Name in a Report" class="">Display the User Name in a Report</a>
+                                </li>
+                              </ul>  </li>
+                          <li class="">
+                            <span class="expand-stub"></span>
+                            <a href="../../../../articles/report-designer/merge-reports.html" title="Merge Reports" class="">Merge Reports</a>
+                              
+                              <ul class="nav level3">
+                                <li class="">
+                                  <a href="../../../../articles/report-designer/merge-reports/add-a-report-to-the-end-beginning.html" title="Add a Report to the End/Beginning" class="">Add a Report to the End/Beginning</a>
+                                </li>
+                                <li class="">
+                                  <a href="../../../../articles/report-designer/merge-reports/use-data-driven-page-sequence.html" title="Use Data-Driven Page Sequence" class="">Use Data-Driven Page Sequence</a>
+                                </li>
+                              </ul>  </li>
+                          <li class="">
+                            <span class="expand-stub"></span>
+                            <a href="../../../../articles/report-designer/use-expressions.html" title="Use Expressions" class="">Use Expressions</a>
+                              
+                              <ul class="nav level3">
+                                <li class="">
+                                  <a href="../../../../articles/report-designer/use-expressions/expression-syntax.html" title="Expression Syntax" class="">Expression Syntax</a>
+                                </li>
+                              </ul>  </li>
+                          <li class="">
+                            <a href="../../../../articles/report-designer/localize-reports.html" title="Localize Reports" class="">Localize Reports</a>
+                          </li>
+                          <li class="">
+                            <a href="../../../../articles/report-designer/preview-print-and-export-reports.html" title="Preview, Print and Export Reports" class="">Preview, Print and Export Reports</a>
+                          </li>
+                          <li class="">
+                            <span class="expand-stub"></span>
+                            <a href="../../../../articles/report-designer/report-designer-tools.html" title="Report Designer Tools" class="">Report Designer Tools</a>
+                              
+                              <ul class="nav level3">
+                                <li class="">
+                                  <span class="expand-stub"></span>
+                                  <a href="../../../../articles/report-designer/report-designer-tools/report-wizard.html" title="Report Wizard" class="">Report Wizard</a>
+                                    
+                                    <ul class="nav level4">
+                                      <li class="">
+                                        <a href="../../../../articles/report-designer/report-designer-tools/report-wizard/empty-report.html" title="Empty Report" class="">Empty Report</a>
+                                      </li>
+                                      <li class="">
+                                        <span class="expand-stub"></span>
+                                        <a href="../../../../articles/report-designer/report-designer-tools/report-wizard/table-and-vertical-report.html" title="Table and Vertical Report" class="">Table and Vertical Report</a>
+                                          
+                                          <ul class="nav level5">
+                                            <li class="">
+                                              <a href="../../../../articles/report-designer/report-designer-tools/report-wizard/table-and-vertical-report/select-data-source.html" title="Select Data Source" class="">Select Data Source</a>
+                                            </li>
+                                            <li class="">
+                                              <a href="../../../../articles/report-designer/report-designer-tools/report-wizard/table-and-vertical-report/specify-data-source-settings-database.html" title="Specify Data Source Settings (Database)" class="">Specify Data Source Settings (Database)</a>
+                                            </li>
+                                            <li class="">
+                                              <a href="../../../../articles/report-designer/report-designer-tools/report-wizard/table-and-vertical-report/specify-data-source-settings-json.html" title="Specify Data Source Settings (JSON)" class="">Specify Data Source Settings (JSON)</a>
+                                            </li>
+                                            <li class="">
+                                              <a href="../../../../articles/report-designer/report-designer-tools/report-wizard/table-and-vertical-report/specify-data-source-settings-object.html" title="Specify Data Source Settings (Object)" class="">Specify Data Source Settings (Object)</a>
+                                            </li>
+                                            <li class="">
+                                              <a href="../../../../articles/report-designer/report-designer-tools/report-wizard/table-and-vertical-report/define-report-layout.html" title="Define Report Layout" class="">Define Report Layout</a>
+                                            </li>
+                                            <li class="">
+                                              <a href="../../../../articles/report-designer/report-designer-tools/report-wizard/table-and-vertical-report/specify-page-settings.html" title="Specify Page Settings" class="">Specify Page Settings</a>
+                                            </li>
+                                          </ul>  </li>
+                                      <li class="">
+                                        <a href="../../../../articles/report-designer/report-designer-tools/report-wizard/label-report.html" title="Label Report" class="">Label Report</a>
+                                      </li>
+                                    </ul>  </li>
+                                <li class="">
+                                  <span class="expand-stub"></span>
+                                  <a href="../../../../articles/report-designer/report-designer-tools/data-source-wizard.html" title="Data Source Wizard" class="">Data Source Wizard</a>
+                                    
+                                    <ul class="nav level4">
+                                      <li class="">
+                                        <a href="../../../../articles/report-designer/report-designer-tools/data-source-wizard/specify-data-source-settings-database.html" title="Specify Data Source Settings (Database)" class="">Specify Data Source Settings (Database)</a>
+                                      </li>
+                                      <li class="">
+                                        <a href="../../../../articles/report-designer/report-designer-tools/data-source-wizard/specify-data-source-settings-json.html" title="Specify Data Source Settings (JSON)" class="">Specify Data Source Settings (JSON)</a>
+                                      </li>
+                                      <li class="">
+                                        <a href="../../../../articles/report-designer/report-designer-tools/data-source-wizard/specify-data-source-settings-object.html" title="Specify Data Source Settings (Object)" class="">Specify Data Source Settings (Object)</a>
+                                      </li>
+                                    </ul>  </li>
+                                <li class="">
+                                  <a href="../../../../articles/report-designer/report-designer-tools/design-surface.html" title="Design Surface" class="">Design Surface</a>
+                                </li>
+                                <li class="">
+                                  <a href="../../../../articles/report-designer/report-designer-tools/menu.html" title="Main Menu" class="">Main Menu</a>
+                                </li>
+                                <li class="">
+                                  <a href="../../../../articles/report-designer/report-designer-tools/toolbar.html" title="Main Toolbar" class="">Main Toolbar</a>
+                                </li>
+                                <li class="">
+                                  <a href="../../../../articles/report-designer/report-designer-tools/toolbox.html" title="Toolbox" class="">Toolbox</a>
+                                </li>
+                                <li class="">
+                                  <a href="../../../../articles/report-designer/report-designer-tools/query-builder.html" title="Query Builder" class="">Query Builder</a>
+                                </li>
+                                <li class="">
+                                  <a href="../../../../articles/report-designer/report-designer-tools/chart-designer.html" title="Chart Designer" class="">Chart Designer</a>
+                                </li>
+                                <li class="">
+                                  <a href="../../../../articles/report-designer/report-designer-tools/expression-editor.html" title="Expression Editor" class="">Expression Editor</a>
+                                </li>
+                                <li class="">
+                                  <a href="../../../../articles/report-designer/report-designer-tools/filter-editor.html" title="Filter Editor" class="">Filter Editor</a>
+                                </li>
+                                <li class="">
+                                  <a href="../../../../articles/report-designer/report-designer-tools/format-string-editor.html" title="Format String Editor" class="">Format String Editor</a>
+                                </li>
+                                <li class="">
+                                  <a href="../../../../articles/report-designer/report-designer-tools/master-detail-relation-editor.html" title="Master-Detail Relation Editor" class="">Master-Detail Relation Editor</a>
+                                </li>
+                                <li class="">
+                                  <a href="../../../../articles/report-designer/report-designer-tools/script-editor.html" title="Script Editor" class="">Script Editor</a>
+                                </li>
+                                <li class="">
+                                  <a href="../../../../articles/report-designer/report-designer-tools/localization-editor.html" title="Localization Editor" class="">Localization Editor</a>
+                                </li>
+                                <li class="">
+                                  <span class="expand-stub"></span>
+                                  <a href="../../../../articles/report-designer/report-designer-tools/ui-panels.html" title="UI Panels" class="">UI Panels</a>
+                                    
+                                    <ul class="nav level4">
+                                      <li class="">
+                                        <a href="../../../../articles/report-designer/report-designer-tools/ui-panels/properties-panel.html" title="Properties Panel" class="">Properties Panel</a>
+                                      </li>
+                                      <li class="">
+                                        <a href="../../../../articles/report-designer/report-designer-tools/ui-panels/expressions-panel.html" title="Expressions Panel" class="">Expressions Panel</a>
+                                      </li>
+                                      <li class="">
+                                        <a href="../../../../articles/report-designer/report-designer-tools/ui-panels/field-list.html" title="Field List" class="">Field List</a>
+                                      </li>
+                                      <li class="">
+                                        <a href="../../../../articles/report-designer/report-designer-tools/ui-panels/report-explorer.html" title="Report Explorer" class="">Report Explorer</a>
+                                      </li>
+                                    </ul>  </li>
+                              </ul>  </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="../../../../articles/report-manager.html" title="Metric Report Manager" class="">Metric Report Manager</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="../../../../articles/report-manager/first-look-at-the-report-manager.html" title="First look at the report manager" class="">First look at the report manager</a>
+                          </li>
+                          <li class="">
+                            <a href="../../../../articles/report-manager/manage-users.html" title="End user management" class="">End user management</a>
+                          </li>
+                          <li class="">
+                            <a href="../../../../articles/report-manager/open-reports-from-manager.html" title="Open a report using the Report Manager" class="">Open a report using the Report Manager</a>
+                          </li>
+                          <li class="">
+                            <a href="../../../../articles/report-manager/add-new-reports-to-menu.html" title="Add new report to the Report Manager" class="">Add new report to the Report Manager</a>
+                          </li>
+                        </ul>  </li>
+                  </ul>        </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="sort-data-by-a-custom-field">Sort Data by a Custom Field</h1>
+
+<p>This tutorial illustrates how to sort a report against a custom criteria, in particular, sort data by the number of characters in the data field value. </p>
+<ol>
+<li><p>Create a new or open an existing data-bound report.</p>
+<p> You cannot apply grouping unless your report is bound to a data source.</p>
+</li>
+<li><p>Create a <a href="../use-calculated-fields.html">calculated field</a>. Switch to the <a href="../../report-designer-tools/ui-panels/field-list.html">Field List</a> panel, select the data source or a table inside it and click <strong>Add Calculated Field</strong>.</p>
+<p> <img src="../../../../images/eurd-web-shaping-group-add-calculated-field.png" alt=""> </p>
+</li>
+<li><p>Click the <strong>Edit</strong> button for the calculated field and then click the <strong>Expression</strong> property&#39;s ellipsis button. In the invoked <a href="../../report-designer-tools/expression-editor.html">Expression Editor</a>, select the required date-time function and define the data field&#39;s name in <strong>[</strong>square brackets<strong>]</strong>. For example,  use the <strong>Len([ProductName])</strong> function to return the number of characters extracted from the <strong>ProductName</strong> data field.</p>
+<p> <img src="../../../../images/eurd-web-sort-data-calculated-field-expression.png" alt=""></p>
+<p> Click <strong>OK</strong> to close the editor and save the changes.</p>
+</li>
+<li><p>Switch to the <a href="../../report-designer-tools/ui-panels/properties-panel.html">Properties</a> panel and select the <a href="../../introduction-to-banded-reports.html">Detail</a> band. Select the <strong>Sort Fields</strong> section in the <strong>Actions</strong> category and add a new sort field to sort the report&#39;s data by the calculated field.</p>
+<p> <img src="../../../../images/eurd-web-sort-data-by-calculated-field.png" alt=""></p>
+<p> Click the <img src="../../../../images/eurd-web-order-ascending.png" alt=""> or <img src="../../../../images/eurd-web-order-descending.png" alt=""> buttons to define the sort order within the group (ascending or descending).
+ Use the <img src="../../../../images/eurd-web-disable-sorting.png" alt=""> button to disable sorting in grouped data.</p>
+</li>
+<li><p>Drag the corresponding field from the <a href="../../report-designer-tools/ui-panels/field-list.html">Field List</a> onto the report area and switch to <a href="../../preview-print-and-export-reports.html">Print Preview</a> to see the result.</p>
+<p> <img src="../../../../images/eurd-web-sort-data-by-calculated-field-result.png" alt=""></p>
+</li>
+</ol>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            <span>Copyright © 2020 Metric d.o.o.  www.mymetric.net, metric@zg.t-com.hr</span>
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../../../styles/main.js"></script>
+  </body>
+</html>
